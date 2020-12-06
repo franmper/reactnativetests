@@ -1,11 +1,12 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
-import DribbleUI from "./src/examples/DribbleUI"
+import Gestures from "./src/examples/Gestures";
+import Reanimated2Test from "./src/examples/Reanimated2Test";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <DribbleUI />
+      <Gestures />
     </View>
   );
 }
